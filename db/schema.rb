@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_10_074552) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_10_080200) do
   create_table "drivers", force: :cascade do |t|
     t.string "name"
     t.string "age"
@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_10_074552) do
     t.string "vehicle_type_licensed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "driver_image"
   end
 
   create_table "tasks", force: :cascade do |t|
