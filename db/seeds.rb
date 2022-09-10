@@ -39,25 +39,25 @@ puts "Seeding tasks"
 
 task1 = Task.create(task_description:"Transporting 100,000 cartons of milk",departure_location:"Headquarters",destination_location:"Mombasa distributor",estimated_distance_in_km:"488km",driver_id:driver4.id,vehicle_id:vehicle10.id)
 
-task2 = Task.create(task_description:"Transporting 10,000 cartons of milk",departure_location:"Machakos distributor",destination_location:"Nyeri distributor",estimated_distance_in_km:"205km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task2 = Task.create(task_description:"Transporting 10,000 cartons of milk",departure_location:"Machakos distributor",destination_location:"Nyeri distributor",estimated_distance_in_km:"205km",driver_id:driver5.id,vehicle_id:vehicle5.id)
 
-task3 = Task.create(task_description:"Transporting 100,000 cartons of yoghurt",departure_location:"Thika distributor",destination_location:"Mombasa distributor",estimated_distance_in_km:"525km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task3 = Task.create(task_description:"Transporting 100,000 cartons of yoghurt",departure_location:"Thika distributor",destination_location:"Mombasa distributor",estimated_distance_in_km:"525km",driver_id:driver1.id,vehicle_id:vehicle7.id)
 
-task4 = Task.create(task_description:"Transporting 50,000kg of cheese",departure_location:"Nyeri distributor",destination_location:"Nakuru distributor",estimated_distance_in_km:"170km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task4 = Task.create(task_description:"Transporting 50,000kg of cheese",departure_location:"Nyeri distributor",destination_location:"Nakuru distributor",estimated_distance_in_km:"170km",driver_id:driver3.id,vehicle_id:vehicle8.id)
 
-task5 = Task.create(task_description:"Transporting 10,000 cartons of milk",departure_location:"Machakos distributor",destination_location:"Headquarters",estimated_distance_in_km:"65km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task5 = Task.create(task_description:"Transporting 10,000 cartons of milk",departure_location:"Machakos distributor",destination_location:"Headquarters",estimated_distance_in_km:"65km",driver_id:driver2.id,vehicle_id:vehicle6.id)
 
-task6 = Task.create(task_description:"Transporting 10,000 cartons of yoghurt",departure_location:"Mombasa distributor",destination_location:"Headquarters",estimated_distance_in_km:"488km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task6 = Task.create(task_description:"Transporting 10,000 cartons of yoghurt",departure_location:"Mombasa distributor",destination_location:"Headquarters",estimated_distance_in_km:"488km",driver_id:driver2.id,vehicle_id:vehicle9.id)
 
-task7 = Task.create(task_description:"Transporting 1000kg cartons of yoghurt",departure_location:"Headquarters",destination_location:"Thika distributor",estimated_distance_in_km:"48km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task7 = Task.create(task_description:"Transporting 1000kg cartons of yoghurt",departure_location:"Headquarters",destination_location:"Thika distributor",estimated_distance_in_km:"48km",driver_id:driver5.id,vehicle_id:vehicle2.id)
 
-task8 = Task.create(task_description:"Transporting 1000kg of cheese",departure_location:"Headquarters",destination_location:"Nyeri distributor",estimated_distance_in_km:"143km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task8 = Task.create(task_description:"Transporting 1000kg of cheese",departure_location:"Headquarters",destination_location:"Nyeri distributor",estimated_distance_in_km:"143km",driver_id:driver3.id,vehicle_id:vehicle8.id)
 
-task9 = Task.create(task_description:"Transporting 1000 cartons of milk",departure_location:"Headquarters",destination_location:"Machakos distributor",estimated_distance_in_km:"65km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task9 = Task.create(task_description:"Transporting 1000 cartons of milk",departure_location:"Headquarters",destination_location:"Machakos distributor",estimated_distance_in_km:"65km",driver_id:driver5.id,vehicle_id:vehicle5.id)
 
-task10 = Task.create(task_description:"Moving 5000 cartons of yoghurt",departure_location:"Headquarters",destination_location:"Thika distributor",estimated_distance_in_km:"48km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task10 = Task.create(task_description:"Moving 5000 cartons of yoghurt",departure_location:"Headquarters",destination_location:"Thika distributor",estimated_distance_in_km:"48km",driver_id:driver2.id,vehicle_id:vehicle3.id)
 
-task11 = Task.create(task_description:"Transporting 100,000kg of cheese",departure_location:"Headquarters",destination_location:"Nakuru distributor",estimated_distance_in_km:"161km",driver_id:driver4.id,vehicle_id:vehicle10.id)
+task11 = Task.create(task_description:"Transporting 100,000kg of cheese",departure_location:"Headquarters",destination_location:"Nakuru distributor",estimated_distance_in_km:"161km",driver_id:driver1.id,vehicle_id:vehicle7.id)
 
 task12 = Task.create(task_description:"Transporting 100,000 cartons of milk",departure_location:"Headquarters",destination_location:"Mombasa distributor",estimated_distance_in_km:"488km",driver_id:driver4.id,vehicle_id:vehicle10.id)
 
