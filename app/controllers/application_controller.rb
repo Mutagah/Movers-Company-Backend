@@ -148,9 +148,6 @@ class ApplicationController < Sinatra::Base
         delete_task.to_json
     end
 end
-      
-
-
 
 
 
