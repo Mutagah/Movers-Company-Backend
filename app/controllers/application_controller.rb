@@ -33,12 +33,12 @@ class ApplicationController < Sinatra::Base
 
         get "/tasks" do
            tasks = Task.all
-           tasks.to_json(include: :driver)
+           tasks.to_json(include: [:driver, :vehicle])
         end
 
         get "/tasks/:id" do
           task = Task.find(params[:id])
-          task.to_json(include: :driver)
+          task.to_json(include: [:driver, :vehicle])
         end
 
         get "/vehicles" do
