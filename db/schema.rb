@@ -28,7 +28,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_10_080200) do
     t.string "destination_location"
     t.string "estimated_distance_in_km"
     t.integer "driver_id"
-    t.string "vehicle_id"
+    t.integer "vehicle_id"
   end
 
   create_table "vehicles", force: :cascade do |t|

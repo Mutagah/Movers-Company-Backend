@@ -6,7 +6,7 @@ class CreateTask < ActiveRecord::Migration[7.0]
       t.string :destination_location
       t.string :estimated_distance_in_km
       t.integer :driver_id
-      t.string :vehicle_id
+      t.integer :vehicle_id
     end
   end
 end

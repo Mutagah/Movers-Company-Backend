@@ -2,7 +2,7 @@ puts "Seeding begin"
 
 puts "Seeding drivers"
 
-driver1 = Driver.create(name:"Mwangi Mathu",age:28,gender:"male",license_number:"CDN100",vehicle_type_licensed:"Truck",driver_image:"https://www.mhlnews.com/transportation-distribution/article/21173467/can-younger-truck-drivers-be-safer")
+driver1 = Driver.create(name:"Mwangi Mathu",age:28,gender:"male",license_number:"CDN100",vehicle_type_licensed:"Truck",driver_image:"https://www.ttnews.com/sites/default/files/images/articles/trucker.jpg")
 
 driver2 = Driver.create(name:"Agnes Nyambane",age:26,gender:"female",license_number:"CDN101",vehicle_type_licensed:"Pick_up",driver_image:"https://media.istockphoto.com/photos/food-delivering-looking-for-right-address-picture-id1218429256?k=20&m=1218429256&s=612x612&w=0&h=AmEG4G-cTxDjbvIElTxuqnz5250gMiOA2pseqqYYu14=")
 
